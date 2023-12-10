@@ -1,12 +1,14 @@
-def printLine(count, symbol):
+def printLine(count=10, symbol='*'):
     for i in range(count):
         print(symbol, end='')
     print()
 
-#printLine(symbol='$', count=30)
+printLine(symbol='$', count=30)
 
-'''printLine(30, '$')
-printLine(15, '#')
+printLine()
+printLine(20)
+printLine(20, 'L')
+'''printLine(15, '#')
 printLine(20, '@')
 printLine(40, '`')
 printLine(10, "mama ")'''
@@ -15,7 +17,7 @@ def add(a, b):
     c = a + b
     return c
 
-#print(add(4, 5))
+print(add(4, 6))
 
 def isEven(num):
     if num % 2 == 0:
