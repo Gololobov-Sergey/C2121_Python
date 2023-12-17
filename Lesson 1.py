@@ -24,7 +24,7 @@ else:
 
 import random
 from turtle import *
-shape("turtle")
+'''shape("turtle")
 speed(50)
 pensize(1)
 color("crimson")
@@ -39,4 +39,4 @@ for k in range(72):
             left(90)
     left(5)
 
-input()
+input()'''
